@@ -1,5 +1,12 @@
 {
     "workshops" : [
-        {"id":1,"title":"Thinking in React v2", "preview" : "blarh de blarh", "description" : "long description here", "time" : "10.10.2014"}
+        {
+            "id":1,
+            "title":"Thinking in React v2", 
+            "workshopper" : "https://github.com/asbjornenge/thinking-in-react",
+            "preview" : "blarh de blarh", 
+            "description" : "<h1>yolo</h1><p>long description here</p>", 
+            "time" : "10.10.2014"
+        }
     ]
 }
