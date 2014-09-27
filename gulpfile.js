@@ -68,7 +68,7 @@ gulp.task('build', ['markup','graphics','stylus','browserify','browserify-vendor
 
 // DEPLOY, SERVER & WATCH
 
-gulp.task('deploy', ['package'], function () {
+gulp.task('deploy', ['build'], function () {
     return gulp.src(paths.build+'/**/*')
         .pipe(gh_pages({
             remoteUrl : 'git@github.com:nodeschool/stavanger.git'
