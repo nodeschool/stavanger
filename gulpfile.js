@@ -74,7 +74,7 @@ gulp.task('browserify-vendor',function () {
         .pipe(gulp.dest(dest))
 })
 
-gulp.task('build', ['root','graphics','stylus','browserify','browserify-vendor'])
+gulp.task('build', ['root','graphics','workshops','stylus','browserify','browserify-vendor'])
 
 // DEPLOY, SERVER & WATCH
 
