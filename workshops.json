@@ -1,5 +1,5 @@
 {
     "workshops" : [
-        {"title":"Thinking in React v2", "preview" : "blarh de blarh", "description" : "long description here", "time" : "10.10.2014"}
+        {"id":1,"title":"Thinking in React v2", "preview" : "blarh de blarh", "description" : "long description here", "time" : "10.10.2014"}
     ]
 }
