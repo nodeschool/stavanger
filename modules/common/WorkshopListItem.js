@@ -10,7 +10,6 @@ var WorkshopListItemRegister = React.createClass({
             onClick   : this.onRegister
         },'register!')
         return $.div({
-            key          : 'WorkshopListItemRegister',
             className    : 'WorkshopListItemRegister'
         }, [registerButton])
     },
@@ -35,6 +34,7 @@ var WorkshopListItem = React.createClass({
                 className : 'WorkshopListItemTitle'
             }, this.props.workshop.title),
             WorkshopListItemRegister({
+                key      : 'WorkshopListItemRegister',
                 hovering : this.state.hovering
             }),
             $.div({
