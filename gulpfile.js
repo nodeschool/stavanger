@@ -10,9 +10,9 @@ var source     = require('vinyl-source-stream')
 var gh_pages   = require("gulp-gh-pages")
 
 var dest  = 'build'
-var port  = 8002
+var port  = 8003
 var paths = {
-    markup   : 'markup/*.html',
+    markup   : 'markup/**',
     graphics : 'graphics/**',
     styles   : 'styles/*.styl',
     scripts  : 'modules/**/*.js',
@@ -87,6 +87,7 @@ gulp.task('server', function(next) {
 gulp.task('watch', ['build','server'], function() {
     var server = livereload();
     gulp.watch(paths.markup,  ['markup'])
+    gulp.watch(paths.markup,  ['graphics'])
     gulp.watch(paths.styles,  ['stylus'])
     gulp.watch(paths.scripts, ['browserify'])
     gulp.watch(dest + '/**').on('change', function(file) {
