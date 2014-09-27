@@ -19,25 +19,22 @@ $workshop-list-width = 400px
     .WorkshopListItem
         height 30px
         line-height 30px
+        cursor pointer
 
         div
             float left
             overflow hidden
 
+        &:hover
+            background-color $light-yellow
+
         .WorkshopListItemId
             width 8%
             text-indent 10px
-            cursor pointer
 
         .WorkshopListItemTitle
-            width 50%
+            width 70%
             text-indent 10px
-            cursor pointer
-
-        .WorkshopListItemRegister
-            width 20%
-            height 100%
-            cursor pointer
 
         .WorkshopListItemTime
             width 20%
