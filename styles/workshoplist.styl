@@ -1,6 +1,6 @@
 @import 'variables'
 
-$workshop-list-width = 600px
+$workshop-list-width = 400px
 
 .WorkshopList
     border 1px solid $color
@@ -24,15 +24,23 @@ $workshop-list-width = 600px
             float left
             overflow hidden
 
-        .WorkshopListItemTitle
-            width 30%
+        .WorkshopListItemId
+            width 8%
             text-indent 10px
+            cursor pointer
 
-        .WorkshopListItemPreview
+        .WorkshopListItemTitle
             width 50%
+            text-indent 10px
+            cursor pointer
+
+        .WorkshopListItemRegister
+            width 20%
+            height 100%
+            cursor pointer
 
         .WorkshopListItemTime
-            width 18%
+            width 20%
             text-align right
 
         &:after
