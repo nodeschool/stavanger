@@ -1,5 +1,12 @@
 module.exports = {
 
+    mapAndSortWorkshops : function(workshops) {
+        var _workshops = Object.keys(workshops).map(function(key) {
+            return workshops[key]
+        })
+        return _workshops
+    },
+
     removeTheHashMaybe : function(hash) {
         return (hash.indexOf('#') == 0) ? hash.slice(1,hash.length) : hash
     },

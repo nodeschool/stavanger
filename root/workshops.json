@@ -1,12 +1,1 @@
-{
-    "workshops" : [
-        {
-            "id":1,
-            "title":"Thinking in React v2", 
-            "workshopper" : "https://github.com/asbjornenge/thinking-in-react",
-            "preview" : "blarh de blarh", 
-            "description" : "<h1>yolo</h1><p>long description here</p>", 
-            "time" : "10.10.2014"
-        }
-    ]
-}
+{"thinking-in-react-v2":{"id":1,"title":"Thinking In React v2","date":"10.10.2014","time":"19:00","workshopper":"https://github.com/asbjornenge/thinking-in-react","body":"<p>En ny mulighet til å lære seg <a href=\"http://facebook.github.io/react/\">React</a>!  </p>\n<p><a href=\"https://github.com/asbjornenge\">@asbjornenge</a>, <a href=\"https://github.com/megatrond\">@megatrond</a> og <a href=\"https://github.com/persille\">@persille</a> har vært hard at work og stiller med en oppdatert <a href=\"https://github.com/asbjornenge/thinking-in-react\">thinking-in-react</a> workshopper full av godbiter. Det blir komponenter i terminalen, run-server og state-bingo for å nevne noe.</p>\n<h2 id=\"hvor\">Hvor</h2>\n<p>Denne gang er vi så heldige å få låne kontorene til Google &amp; Facebook på likt...</p>\n<p>Trenger ikke ta med noen ting. Alle får ny retian mbp &amp; iphone 6 upon arrival.</p>\n<h2 id=\"debrief\">Debrief</h2>\n<p>Oppsummering, bilder ++</p>\n"}}

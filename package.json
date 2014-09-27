@@ -20,6 +20,8 @@
   "homepage": "https://nodeschool.io/stavanger",
   "dependencies": {
     "flux": "^2.0.0",
+    "gulp-markdown-to-json": "^0.2.1",
+    "gulp-util": "^3.0.1",
     "react": "^0.11.1"
   },
   "devDependencies": {

@@ -1,10 +1,12 @@
 var React        = require('react')
 var utils        = require('./utils')
-var workshops    = require('../root/workshops.json').workshops
+var workshops    = require('../root/workshops.json')
 var Header       = require('./common/HeaderBig')
 var LandingPage  = require('./pages/LandingPage')
 var WorkshopPage = require('./pages/WorkshopPage')
 var $            = React.DOM
+
+workshops = utils.mapAndSortWorkshops(workshops)
 
 var StavangerNodeSchool = React.createClass({
     render : function() {

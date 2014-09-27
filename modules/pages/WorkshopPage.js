@@ -28,14 +28,11 @@ var WorkshopPage = React.createClass({
             $.div({
                 key       : 'Time',
                 className : 'Time'
-            }, this.props.workshop.time),
-            $.p({
-                key : 'Preview'
-            },this.props.workshop.preview),
+            }, this.props.workshop.date+' '+this.props.workshop.time),
             $.div({
                 key : 'Description',
                 dangerouslySetInnerHTML : {
-                    __html : this.props.workshop.description
+                    __html : this.props.workshop.body
                 }
             })
         ])

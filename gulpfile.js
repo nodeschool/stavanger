@@ -1,4 +1,5 @@
 var gulp       = require('gulp')
+var gutil      = require('gulp-util')
 var livereload = require('gulp-livereload')
 var rename     = require('gulp-rename')
 var concat     = require('gulp-concat')
@@ -8,16 +9,18 @@ var uglify     = require('gulp-uglify')
 var browserify = require('browserify')
 var source     = require('vinyl-source-stream')
 var gh_pages   = require('gulp-gh-pages')
+var markdown   = require('gulp-markdown-to-json')
 
 var dest  = 'build'
 var port  = 8003
 var paths = {
-    root     : 'root/**',
-    graphics : 'graphics/**',
-    styles   : 'styles/*.styl',
-    scripts  : 'modules/**/*.js',
-    entry    : './modules/entry.js',
-    vendor   : './modules/vendor.js'
+    root      : 'root/**',
+    workshops : 'workshops/*.md',
+    graphics  : 'graphics/**',
+    styles    : 'styles/*.styl',
+    scripts   : 'modules/**/*.js',
+    entry     : './modules/entry.js',
+    vendor    : './modules/vendor.js'
 }
 
 // BUILD STEPS
@@ -30,6 +33,13 @@ gulp.task('graphics', function () {
 gulp.task('root', function () {
     return gulp.src(paths.root)
         .pipe(gulp.dest(dest))
+})
+
+gulp.task('workshops', function() {
+    return gulp.src(paths.workshops)
+        .pipe(gutil.buffer())
+        .pipe(markdown('workshops.json'))
+        .pipe(gulp.dest('root'))
 })
 
 gulp.task('stylus', function () {
@@ -87,10 +97,11 @@ gulp.task('server', function(next) {
 
 gulp.task('watch', ['build','server'], function() {
     var server = livereload();
-    gulp.watch(paths.root,     ['root'])
-    gulp.watch(paths.graphics, ['graphics'])
-    gulp.watch(paths.styles,   ['stylus'])
-    gulp.watch(paths.scripts,  ['browserify'])
+    gulp.watch(paths.root,      ['root'])
+    gulp.watch(paths.graphics,  ['graphics'])
+    gulp.watch(paths.workshops, ['workshops','browserify'])
+    gulp.watch(paths.styles,    ['stylus'])
+    gulp.watch(paths.scripts,   ['browserify'])
     gulp.watch(dest + '/**').on('change', function(file) {
         server.changed(file.path);
     });

@@ -19,7 +19,7 @@ var WorkshopListItem = React.createClass({
             $.div({
                 key       : 'WorkshopListItemTime',
                 className : 'WorkshopListItemTime'
-            }, this.props.workshop.time)
+            }, this.props.workshop.date)
         ])
     },
     navigateToWorkshop : function() {
