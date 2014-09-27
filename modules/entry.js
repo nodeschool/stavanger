@@ -69,9 +69,9 @@ var LandingPage = React.createClass({
             InstallStavangerNodeSchoolModule({
                 key : 'InstallStavangerNodeSchoolModule'
             }),
-            LandingPageWelcome({
-                key : 'LandingPageWelcome'
-            })
+            // LandingPageWelcome({
+            //     key : 'LandingPageWelcome'
+            // })
         ])
     }
 })
