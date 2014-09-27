@@ -7,7 +7,7 @@ var minify     = require('gulp-minify-css')
 var uglify     = require('gulp-uglify')
 var browserify = require('browserify')
 var source     = require('vinyl-source-stream')
-var gh_pages   = require("gulp-gh-pages")
+var gh_pages   = require('gulp-gh-pages')
 
 var dest  = 'build'
 var port  = 8003
@@ -69,9 +69,10 @@ gulp.task('build', ['markup','graphics','stylus','browserify','browserify-vendor
 // DEPLOY, SERVER & WATCH
 
 gulp.task('deploy', ['build'], function () {
-    return gulp.src(paths.build+'/**/*')
+    return gulp.src(dest+'/**/*')
         .pipe(gh_pages({
-            remoteUrl : 'git@github.com:nodeschool/stavanger.git'
+            remoteUrl : 'git@github.com:nodeschool/stavanger.git',
+            cacheDir : '/srv/stavanger-nodeschool-gh-pages'
         }))
 })
 

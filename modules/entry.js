@@ -5,7 +5,7 @@ var StavangerNodeSchoolHouse = React.createClass({
     render : function() {
         return $.img({
             className : 'StavangerNodeSchoolHouse',
-            src       : '/graphics/schoolhouse.svg'
+            src       : 'graphics/schoolhouse.svg'
         })
     }
 })
@@ -14,7 +14,7 @@ var StavangerNodeSchoolLogo = React.createClass({
     render : function() {
         return $.img({
             className : 'StavangerNodeSchoolLogo',
-            src       : '/graphics/stavanger-nodeschool-logo.png'
+            src       : 'graphics/stavanger-nodeschool-logo.png'
         })
     }
 })
