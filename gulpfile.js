@@ -12,7 +12,7 @@ var gh_pages   = require('gulp-gh-pages')
 var dest  = 'build'
 var port  = 8003
 var paths = {
-    markup   : 'markup/**',
+    root     : 'root/**',
     graphics : 'graphics/**',
     styles   : 'styles/*.styl',
     scripts  : 'modules/**/*.js',
@@ -27,8 +27,8 @@ gulp.task('graphics', function () {
         .pipe(gulp.dest(dest+'/graphics'))
 })
 
-gulp.task('markup', function () {
-    return gulp.src(paths.markup)
+gulp.task('root', function () {
+    return gulp.src(paths.root)
         .pipe(gulp.dest(dest))
 })
 
@@ -64,7 +64,7 @@ gulp.task('browserify-vendor',function () {
         .pipe(gulp.dest(dest))
 })
 
-gulp.task('build', ['markup','graphics','stylus','browserify','browserify-vendor'])
+gulp.task('build', ['root','graphics','stylus','browserify','browserify-vendor'])
 
 // DEPLOY, SERVER & WATCH
 
@@ -87,10 +87,10 @@ gulp.task('server', function(next) {
 
 gulp.task('watch', ['build','server'], function() {
     var server = livereload();
-    gulp.watch(paths.markup,  ['markup'])
-    gulp.watch(paths.markup,  ['graphics'])
-    gulp.watch(paths.styles,  ['stylus'])
-    gulp.watch(paths.scripts, ['browserify'])
+    gulp.watch(paths.root,     ['root'])
+    gulp.watch(paths.graphics, ['graphics'])
+    gulp.watch(paths.styles,   ['stylus'])
+    gulp.watch(paths.scripts,  ['browserify'])
     gulp.watch(dest + '/**').on('change', function(file) {
         server.changed(file.path);
     });
