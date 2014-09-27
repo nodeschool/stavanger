@@ -38,13 +38,51 @@ var HeaderBig = React.createClass({
     }
 })
 
+var LandingPageWelcome = React.createClass({
+    render : function() {
+        return $.p({
+            className : 'LandingPageWelcome'
+        },'Stavanger NodeSchool organizes javascript workshops in and around Stavanger, Norway.')
+    }
+})
+
+var InstallStavangerNodeSchoolModule = React.createClass({
+    render : function() {
+        return $.div({
+            className : 'InstallStavangerNodeSchoolModule'
+        },[
+            $.code({
+                key : 'InstallStavangerNodeSchoolModuleCode'
+            },'$ npm install -g stavanger-nodeschool')
+        ])
+    }
+})
+
+var LandingPage = React.createClass({
+    render : function() {
+        return $.div({
+            className : 'LandingPage'
+        },[
+            HeaderBig({
+                key : 'HeaderBig'
+            }),
+            InstallStavangerNodeSchoolModule({
+                key : 'InstallStavangerNodeSchoolModule'
+            }),
+            LandingPageWelcome({
+                key : 'LandingPageWelcome'
+            })
+        ])
+    }
+})
+
 var StavangerNodeSchool = React.createClass({
     render : function() {
         return $.div({
             key       : 'StavangerNodeSchool',
             className : 'StavangerNodeSchool'
         }, [
-            HeaderBig({
+            LandingPage({
                 key : 'HeaderBig'
             })
         ])
