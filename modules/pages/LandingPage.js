@@ -17,9 +17,6 @@ var LandingPage = React.createClass({
         return $.div({
             className : 'LandingPage'
         },[
-            HeaderBig({
-                key : 'HeaderBig'
-            }),
             InstallStavangerNodeSchoolModule({
                 key : 'InstallStavangerNodeSchoolModule'
             }),

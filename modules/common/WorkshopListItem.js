@@ -1,4 +1,5 @@
 var React = require('react')
+var utils = require('../utils')
 var $     = React.DOM
 
 var WorkshopListItemRegister = React.createClass({
@@ -27,11 +28,13 @@ var WorkshopListItem = React.createClass({
         }, [
             $.div({
                 key       : 'WorkshopListItemId',
-                className : 'WorkshopListItemId'
+                className : 'WorkshopListItemId',
+                onClick   : this.navigateToWorkshop
             }, '# '+this.props.workshop.id),
             $.div({
                 key       : 'WorkshopListItemTitle',
-                className : 'WorkshopListItemTitle'
+                className : 'WorkshopListItemTitle',
+                onClick   : this.navigateToWorkshop
             }, this.props.workshop.title),
             WorkshopListItemRegister({
                 key      : 'WorkshopListItemRegister',
@@ -53,6 +56,9 @@ var WorkshopListItem = React.createClass({
     },
     onMouseLeave : function() {
         this.setState({hovering:false})
+    },
+    navigateToWorkshop : function() {
+        utils.navigate('/'+this.props.workshop.id)
     }
 })
 
