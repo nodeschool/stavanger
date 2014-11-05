@@ -1,7 +1,7 @@
 ---
 id      : 1
 title   : Thinking In React v2
-date    : 10.10.2014
+date    : ?.?.2014
 time    : "19:00"
 workshopper : https://www.npmjs.org/package/thinking-in-react
 ---
