@@ -1,7 +1,7 @@
 ---
 id      : 1
 title   : Thinking In React v2
-date    : ?.?.2014
+date    : 21.11.2014
 time    : "19:00"
 workshopper : https://www.npmjs.org/package/thinking-in-react
 ---
@@ -14,7 +14,9 @@ Vi ordner kaffe.
 
 ### Location
 
-Foreløpig ikke bestemt...
+Smart Management  
+[Børehaugen 3 ](https://a.tiles.mapbox.com/v4/asbjornenge.k5l0opfl/page.html?access_token=pk.eyJ1IjoiYXNiam9ybmVuZ2UiLCJhIjoiMlRFQ1RrayJ9.CPLmNom9oy3ynpS4stUShw#19/58.97382/5.73116)  
+4006 Stavanger
 
 ### Requirements
 
@@ -24,4 +26,9 @@ Så dra med bedre-halvdel, unger, katt og bikkje og møt opp!
 
 ### Sponsorer
 
-Ja takk!
+[Smart Management](http://www.smartm.no) - Lokaler  
+[CurlHat](http://www.asbjornenge.com) - Kaffe & Stickers
+
+Takk skal dere ha!
+
+![smartm](http://www.smartm.no/storage/logo.png)
