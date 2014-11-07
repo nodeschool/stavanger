@@ -14,6 +14,17 @@ var WorkshopperLink = React.createClass({
     }
 })
 
+var EventLink = React.createClass({
+    render : function() {
+        if (!this.props.workshop.event) return
+        return $.a({
+            className : 'EventLink',
+            href      : this.props.workshop.event,
+            target    : '_blank'
+        }, 'Join!')
+    }
+})
+
 var WorkshopPageInfoBox = React.createClass({
     render : function() {
         return $.div({
@@ -30,7 +41,11 @@ var WorkshopPageInfoBox = React.createClass({
             $.div({
                 key       : 'Time',
                 className : 'Time'
-            }, 'kl. '+this.props.workshop.time)
+            }, 'kl. '+this.props.workshop.time),
+            EventLink({
+                key      : 'EventLink',
+                workshop : this.props.workshop
+            })
         ])
     }
 })

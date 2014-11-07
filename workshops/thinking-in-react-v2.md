@@ -4,9 +4,10 @@ title   : Thinking In React v2
 date    : 21.11.2014
 time    : "19:00"
 workshopper : https://www.npmjs.org/package/thinking-in-react
+event : https://nvite.com/StavangerNodeschool1/fae
 ---
 
-En ny mulighet til å lære seg [React](http://facebook.github.io/react/)!  
+En ny mulighet til å lære seg [React](http://facebook.github.io/react/)!   
 
 [@asbjornenge](https://github.com/asbjornenge), [@megatrond](https://github.com/megatrond) og [@persille](https://github.com/persille) har vært "hard at work" og stiller med en oppdatert [thinking-in-react](https://github.com/asbjornenge/thinking-in-react) workshopper full av godbiter. Det blir komponenter i terminalen, run-server og state-bingo for å nevne noe.
 
