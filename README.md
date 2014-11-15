@@ -6,7 +6,7 @@ Stavanger NodeSchool organizes javascript workshops in and around Stavanger, Nor
 
 <a href="http://nodeschool.io/stavanger"><img src="http://nodeschool.io/images/nodeschool-stavanger.png" width="240"></a>
 
-This repository is meant for any Stavanger NodeSchool memebers or workshop attendee to ask questions or interact with other members during workshops or any other time.
+This repository is meant for any Stavanger NodeSchool memeber or workshop attendee to ask questions or interact with other members during workshops or any other time.
 
 This is also the repository for the Stavanger NodeSchool website @ http://nodeschool.io/stavanger
 
