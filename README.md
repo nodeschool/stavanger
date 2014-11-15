@@ -2,8 +2,12 @@
 
 Stavanger NodeSchool organizes javascript workshops in and around Stavanger, Norway.
 
-:tada:
+**UPCOMING [EVENT](http://nodeschool.io/stavanger/#/1) 21.11.2014**
 
-This is the repository for the Stavanger NodeSchool website @ http://nodeschool.io/stavanger
+![Stavanger](http://nodeschool.io/images/nodeschool-stavanger.png =386x433)
+
+This repository is meant for any Stavanger NodeSchool memebers or workshop attendee to ask questions or interact with other members during workshops or any other time.
+
+This is also the repository for the Stavanger NodeSchool website @ http://nodeschool.io/stavanger
 
 enjoy.
