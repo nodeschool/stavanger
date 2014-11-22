@@ -33,13 +33,13 @@ Håper alle synes det var like kjekt som meg! Gleder meg til flere workshops fre
 
 ~ Asbjørn
 
-[![eventimage](/graphics/StavangerNodeSchool1/img6.jpg)](/graphics/StavangerNodeSchool1/img6.jpg)
-[![eventimage](/graphics/StavangerNodeSchool1/img7.jpg)](/graphics/StavangerNodeSchool1/img7.jpg)
-[![eventimage](/graphics/StavangerNodeSchool1/img5.jpg)](/graphics/StavangerNodeSchool1/img5.jpg)
-[![eventimage](/graphics/StavangerNodeSchool1/img4.jpg)](/graphics/StavangerNodeSchool1/img4.jpg)
-[![eventimage](/graphics/StavangerNodeSchool1/img3.jpg)](/graphics/StavangerNodeSchool1/img3.jpg)
-[![eventimage](/graphics/StavangerNodeSchool1/img2.jpg)](/graphics/StavangerNodeSchool1/img2.jpg)
-[![eventimage](/graphics/StavangerNodeSchool1/img1.jpg)](/graphics/StavangerNodeSchool1/img1.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img6.jpg)](graphics/StavangerNodeSchool1/img6.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img7.jpg)](graphics/StavangerNodeSchool1/img7.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img5.jpg)](graphics/StavangerNodeSchool1/img5.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img4.jpg)](graphics/StavangerNodeSchool1/img4.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img3.jpg)](graphics/StavangerNodeSchool1/img3.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img2.jpg)](graphics/StavangerNodeSchool1/img2.jpg)
+[![eventimage](graphics/StavangerNodeSchool1/img1.jpg)](graphics/StavangerNodeSchool1/img1.jpg)
 
 ### Sponsorer
 
