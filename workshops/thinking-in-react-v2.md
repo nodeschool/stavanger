@@ -25,6 +25,22 @@ Absolutt ingen! Vi hjelper med alt fra å installere [node](http://nodejs.org/) 
 
 Så dra med bedre-halvdel, unger, katt og bikkje og møt opp!
 
+### Post Mortem
+
+Av 14 påmeldte møtte 8 ivrige javascriptere. Alle ble (av egen fri vilje :-P) lagt til i sjug & Stavanger NodeSchool teams på github og fikk medlem sticker. Alle kom relativt enkelt igang med [thinking-in-react](https://github.com/asbjornenge/thinking-in-react), selv på windows! De fleste jobbet sammen 2 og 2. God fremgang og generelt lite spm. Vi fant og registrerte et par bugs/uklarheter, men workshop'en lik langt enklere enn sist. Tror jammen alle klarte å fullføre!
+
+Håper alle synes det var like kjekt som meg! Gleder meg til flere workshops fremover.
+
+~ Asbjørn
+
+[![eventimage](/graphics/StavangerNodeSchool1/img6.jpg)](/graphics/StavangerNodeSchool1/img6.jpg)
+[![eventimage](/graphics/StavangerNodeSchool1/img7.jpg)](/graphics/StavangerNodeSchool1/img7.jpg)
+[![eventimage](/graphics/StavangerNodeSchool1/img5.jpg)](/graphics/StavangerNodeSchool1/img5.jpg)
+[![eventimage](/graphics/StavangerNodeSchool1/img4.jpg)](/graphics/StavangerNodeSchool1/img4.jpg)
+[![eventimage](/graphics/StavangerNodeSchool1/img3.jpg)](/graphics/StavangerNodeSchool1/img3.jpg)
+[![eventimage](/graphics/StavangerNodeSchool1/img2.jpg)](/graphics/StavangerNodeSchool1/img2.jpg)
+[![eventimage](/graphics/StavangerNodeSchool1/img1.jpg)](/graphics/StavangerNodeSchool1/img1.jpg)
+
 ### Sponsorer
 
 [Smart Management](http://www.smartm.no) - Lokaler  
