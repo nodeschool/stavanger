@@ -1,7 +1,7 @@
 ---
 id      : 2
 title   : Functional Javascript
-date    : 21.01.2015
+date    : 22.01.2015
 time    : "19:00"
 workshopper : https://www.npmjs.com/package/functional-javascript-workshop
 event : https://nvite.com/StavangerNodeschool1/fae
