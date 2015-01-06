@@ -4,7 +4,7 @@ title   : Functional Javascript
 date    : 22.01.2015
 time    : "19:00"
 workshopper : https://www.npmjs.com/package/functional-javascript-workshop
-event : https://nvite.com/StavangerNodeschool1/fae
+event : https://nvite.com/StavangerNodeschool2/c52
 ---
 
 Functional programming er [i vinden](https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9) som aldri før. Begreper som immutability, pure functions, higher order functions & map-reduce blåser i den digitale twitterstormen så hipsterskjegget faller i hjemmebrygget. Enten du er en lambda wizard eller såvidt har hørt disse begrepene tidligere så har du noe å lære og noe å bidra med. 
