@@ -23,6 +23,26 @@ Smart Management
 
 Absolutt ingen! Vi hjelper med alt fra å installere [node](http://nodejs.org/) & [npm](https://www.npmjs.org/) til å pudre nesen. Har du ikke laptop så setter vi oss flere sammen. Så dra med bedre-halvdel, unger, katt og bikkje og møt opp!
 
+### Post Mortem
+
+Bra oppmøte en kald januarkveld! 14 ivrige hackere klar for å lære functional programming med javascript. Det ble en utfordrende kveld :-P Etterhvert rimelig kompliserte oppgaver i en kodestil som fremdeles er ny for mange. Men veldig god stemning og progresjon. Jeg tror alle lærte noe nytt, hvertfall gjorde undertegnede det! Noen ble sittende helt til 22:30! Tror ingen kom helt gjennom, men Trond & Torbjørn manglet bare 2 oppgaver på slutten der. Kanskje de må ta en gjennomgang av "fasit" for oss andre neste gang? Uansett; godt jobba alle mann!!
+
+Tips til forbedringer av opplegg mottas med takk :-)
+
+~ Asbjørn
+
+
+[![eventimage](graphics/StavangerNodeSchool2/2.jpg)](graphics/StavangerNodeSchool2/2.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/4.jpg)](graphics/StavangerNodeSchool2/4.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/5.jpg)](graphics/StavangerNodeSchool2/5.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/6.jpg)](graphics/StavangerNodeSchool2/6.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/7.jpg)](graphics/StavangerNodeSchool2/7.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/8.jpg)](graphics/StavangerNodeSchool2/8.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/9.jpg)](graphics/StavangerNodeSchool2/9.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/10.jpg)](graphics/StavangerNodeSchool2/10.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/12.jpg)](graphics/StavangerNodeSchool2/12.jpg)
+[![eventimage](graphics/StavangerNodeSchool2/14.jpg)](graphics/StavangerNodeSchool2/14.jpg)
+
 ### Sponsorer
 
 [Smart Management](http://www.smartm.no) - Lokaler  
